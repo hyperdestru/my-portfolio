@@ -1,5 +1,6 @@
 <template>
 	<v-app>
+		<the-header></the-header>
 		<v-main>
 			<the-banner></the-banner>
 		</v-main>
@@ -7,13 +8,15 @@
 </template>
 
 <script>
-	import TheBanner from './components/TheBanner';
+	import TheBanner from './components/TheBanner'
+	import TheHeader from './components/TheHeader'
 
 	export default {
 		name: 'App',
 
 		components: {
-			'the-banner': TheBanner
+			'the-banner': TheBanner,
+			'the-header': TheHeader
 		}
 	}
 </script>

@@ -1,10 +1,23 @@
 <template>
-	<v-row justify="center">
-		<v-col align="center">
-			<h2 class="text-h1">{{ $t('messages.tBanner') }}</h2>
-			<h1 class="text-h6">{{ $t('messages.stBanner') }}</h1>
-		</v-col>
-	</v-row>
+	<div 
+		style="height: 600px"
+		class="
+			d-flex 
+			flex-column 
+			justify-space-around
+			align-center
+		"
+	>
+		<div class="text-center">
+			<img 
+				src="../assets/logo-black-green.png"
+				alt="Gaël Dumon"
+			>
+			<p class="text-uppercase mr-9 py-4 ma-0" style="letter-spacing: .4rem">
+				{{ $t('messages.stBanner') }}
+			</p>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -12,8 +25,3 @@
 		name: 'TheBanner'
 	}
 </script>
-
-<style scoped>
-
-</style>
-
