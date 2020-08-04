@@ -1,12 +1,12 @@
 <template>
 	<v-icon x-large>
-		mdi-code-braces-box
+		mdi-arrow-down-circle
 	</v-icon>
 </template>
 
 <script>
 	export default {
-		name: 'HeaderLogo'
+		name: 'ScrollCta'
 	}
 </script>
 

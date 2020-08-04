@@ -8,20 +8,28 @@
 			align-center
 		"
 	>
-		<div class="text-center">
-			<img 
-				src="../assets/logo-black-green.png"
-				alt="Gaël Dumon"
-			>
-			<p class="text-uppercase mr-9 py-4 ma-0" style="letter-spacing: .4rem">
+		<div class="text-center text-uppercase">
+			<h2 class="text-h1">
+				{{ $t('messages.tBanner') }}
+			</h2>
+			<h1 class="text-h6 py-4" style="letter-spacing: .4rem">
 				{{ $t('messages.stBanner') }}
-			</p>
+			</h1>
 		</div>
+
+		<scroll-cta>
+		</scroll-cta>
 	</div>
 </template>
 
 <script>
+	import ScrollCta from './ScrollCta'
+
 	export default {
-		name: 'TheBanner'
+		name: 'TheBanner',
+
+		components: {
+			'scroll-cta': ScrollCta
+		}
 	}
 </script>

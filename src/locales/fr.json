@@ -1,6 +1,7 @@
 {
 	"messages": {
 		"tBanner": "Gaël Dumon",
-		"stBanner": "Développeur Javascript"
+		"stBanner": "Développeur Web",
+		"tFooter": "Fait maison avec Vue.js"
 	}
 }

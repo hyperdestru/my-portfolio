@@ -2,21 +2,24 @@
 	<v-app>
 		<the-header></the-header>
 		<v-main>
-			<the-banner></the-banner>
+			<the-home></the-home>
 		</v-main>
+		<the-footer></the-footer>
 	</v-app>
 </template>
 
 <script>
-	import TheBanner from './components/TheBanner'
 	import TheHeader from './components/TheHeader'
+	import TheFooter from './components/TheFooter'
+	import TheHome from './views/TheHome'
 
 	export default {
 		name: 'App',
 
 		components: {
-			'the-banner': TheBanner,
-			'the-header': TheHeader
+			'the-header': TheHeader,
+			'the-footer': TheFooter,
+			'the-home': TheHome
 		}
 	}
 </script>
