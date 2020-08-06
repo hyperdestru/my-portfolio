@@ -4,11 +4,13 @@
 			:class="{ 'd-flex': !dropdown }"
 		>
 			<v-list-item v-for="(page, index) in pages" :key="index">
-				<v-list-item-content>
-					<v-list-item-title>
-						{{ page.name }}
-					</v-list-item-title>
-				</v-list-item-content>
+				<a :href="page.link">
+					<v-list-item-content>
+						<v-list-item-title>
+							{{ page.name }}
+						</v-list-item-title>
+					</v-list-item-content>
+				</a>
 			</v-list-item>
 		</v-list-item-group>
 	</v-list>
@@ -27,10 +29,10 @@
 
 		data: () => ({
 			pages: [
-				{ name: 'Accueil' },
-				{ name: 'Projets' },
-				{ name: 'A propos' },
-				{ name: 'Contact' }
+				{ name: 'Accueil', link: '#the-home' },
+				{ name: 'Projets', link: '#the-projects' },
+				{ name: 'A propos', link: '#the-about' },
+				{ name: 'Contact', link: '#the-contact' }
 			]
 		})
 	}
