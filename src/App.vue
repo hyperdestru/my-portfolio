@@ -1,11 +1,13 @@
 <template>
 	<v-app>
-		<the-header></the-header>
+		<the-header>
+		</the-header>
 		<v-main>
 			<the-home></the-home>
 			<the-projects></the-projects>
 		</v-main>
-		<the-footer></the-footer>
+		<the-footer>
+		</the-footer>
 	</v-app>
 </template>
 

@@ -1,5 +1,7 @@
 <template>
-	<the-banner></the-banner>
+		<div id="the-home">
+			<the-banner></the-banner>
+		</div>
 </template>
 
 <script>

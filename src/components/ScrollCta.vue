@@ -1,6 +1,6 @@
 <template>
-	<v-icon x-large>
-		mdi-arrow-down-circle
+	<v-icon x-large @click="$vuetify.goTo('#the-projects')">
+		mdi-chevron-down
 	</v-icon>
 </template>
 

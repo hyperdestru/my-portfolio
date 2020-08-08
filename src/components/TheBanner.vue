@@ -12,7 +12,7 @@
 			<h2 class="text-h1">
 				{{ $t('messages.tBanner') }}
 			</h2>
-			<h1 class="text-h6 py-4" style="letter-spacing: .4rem">
+			<h1 class="text-h6">
 				{{ $t('messages.stBanner') }}
 			</h1>
 		</div>

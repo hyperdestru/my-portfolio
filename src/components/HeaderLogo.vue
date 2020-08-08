@@ -1,5 +1,5 @@
 <template>
-	<v-icon x-large>
+	<v-icon x-large @click="$vuetify.goTo('#the-home')">
 		mdi-code-braces-box
 	</v-icon>
 </template>

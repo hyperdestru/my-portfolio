@@ -3,17 +3,18 @@
 		<h3 class="text-center">
 			{{ $t('messages.tProjects') }}
 		</h3>
+		<single-project></single-project>
 	</div>
 </template>
 
 <script>
-	// import TheProjects from '../components/TheProjects'
+	import SingleProject from '../components/SingleProject'
 
 	export default {
 		name: 'TheProjects',
 
 		components: {
-			// 'the-projects': TheProjects,
+			'single-project': SingleProject,
 		}
 	}
 </script>
