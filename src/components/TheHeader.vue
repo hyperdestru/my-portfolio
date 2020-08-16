@@ -22,9 +22,9 @@
 </template>
 
 <script>
-	import DropdownMenu from '@/components/DropdownMenu';
-	import ClassicMenu from '@/components/ClassicMenu';
-	import HeaderLogo from '@/components/HeaderLogo';
+	import DropdownMenu from '@/components/DropdownMenu'
+	import ClassicMenu from '@/components/ClassicMenu'
+	import HeaderLogo from '@/components/HeaderLogo'
 
 	export default {
 		name: 'TheHeader',

@@ -1,6 +1,7 @@
 <template>
 		<div id="the-home">
-			<the-banner></the-banner>
+			<the-banner>
+			</the-banner>
 		</div>
 </template>
 

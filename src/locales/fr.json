@@ -4,5 +4,15 @@
 		"tFooter": "Fait maison avec Vue.js",
 		"tProjects": "Mes projets",
 		"stBanner": "Développeur web full stack"
-	}
+	},
+	"projects": [
+		{ 
+			"title": "Instant Vital",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!" 
+		},
+		{ 
+			"title": "Hoa Fight",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!" 
+		}
+	]
 }

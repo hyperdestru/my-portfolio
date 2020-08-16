@@ -1,8 +1,6 @@
 <template>
 	<v-list class="nav" flat>
-		<v-list-item-group 
-			:class="{ 'd-flex': !dropdown }"
-		>
+		<v-list-item-group :class="{ 'd-flex': !dropdown }">
 			<v-list-item 
 				v-for="(page, index) in pages" 
 				:key="index"

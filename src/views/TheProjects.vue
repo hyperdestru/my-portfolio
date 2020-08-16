@@ -1,10 +1,13 @@
 <template>
-	<div id="the-projects">
+	<v-container fluid id="the-projects">
 		<h3 class="text-center">
 			{{ $t('messages.tProjects') }}
 		</h3>
-		<single-project></single-project>
-	</div>
+		<v-row v-for="(proj, index) in $t('projects')" :key="index">
+			<single-project :project="proj">
+			</single-project>
+		</v-row>
+	</v-container>
 </template>
 
 <script>
