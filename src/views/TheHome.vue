@@ -6,13 +6,13 @@
 </template>
 
 <script>
-	import TheBanner from '../components/TheBanner'
+import TheBanner from '../components/TheBanner'
 
-	export default {
-		name: 'TheHome',
+export default {
+	name: 'TheHome',
 
-		components: {
-			'the-banner': TheBanner,
-		}
+	components: {
+		'the-banner': TheBanner,
 	}
+}
 </script>

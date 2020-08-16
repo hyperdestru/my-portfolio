@@ -12,19 +12,19 @@
 </template>
 
 <script>
-	import TheHeader from './components/TheHeader'
-	import TheFooter from './components/TheFooter'
-	import TheHome from './views/TheHome'
-	import TheProjects from './views/TheProjects'
+import TheHeader from './components/TheHeader'
+import TheFooter from './components/TheFooter'
+import TheHome from './views/TheHome'
+import TheProjects from './views/TheProjects'
 
-	export default {
-		name: 'App',
+export default {
+	name: 'App',
 
-		components: {
-			'the-header': TheHeader,
-			'the-footer': TheFooter,
-			'the-home': TheHome,
-			'the-projects': TheProjects,
-		}
+	components: {
+		'the-header': TheHeader,
+		'the-footer': TheFooter,
+		'the-home': TheHome,
+		'the-projects': TheProjects,
 	}
+}
 </script>

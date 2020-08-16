@@ -8,11 +8,11 @@
 
 <script>
 
-	export default {
-		name: 'TheHeader',
+export default {
+	name: 'TheHeader',
 
-		components: {
-		}
+	components: {
 	}
+}
 </script>
 

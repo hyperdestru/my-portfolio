@@ -8,13 +8,13 @@
 </template>
 
 <script>
-	import ThumbnailSolo from './ThumbnailSolo'
+import ThumbnailSolo from './ThumbnailSolo'
 
-	export default {
-		name: "ThumbnailsGrid",
+export default {
+	name: "ThumbnailsGrid",
 
-		components: {
-			'thumbnail-solo': ThumbnailSolo
-		}
+	components: {
+		'thumbnail-solo': ThumbnailSolo
 	}
+}
 </script>

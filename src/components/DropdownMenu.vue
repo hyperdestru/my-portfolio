@@ -12,13 +12,13 @@
 </template>
 
 <script>
-	import TheNav from '@/components/TheNav'
+import TheNav from '@/components/TheNav'
 
-	export default {
-		name: 'DropdownMenu',
+export default {
+	name: 'DropdownMenu',
 
-		components: {
-			'the-nav': TheNav
-		}
+	components: {
+		'the-nav': TheNav
 	}
+}
 </script>

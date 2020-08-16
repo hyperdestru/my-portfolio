@@ -11,13 +11,13 @@
 </template>
 
 <script>
-	import SingleProject from '../components/SingleProject'
+import SingleProject from '../components/SingleProject'
 
-	export default {
-		name: 'TheProjects',
+export default {
+	name: 'TheProjects',
 
-		components: {
-			'single-project': SingleProject,
-		}
+	components: {
+		'single-project': SingleProject,
 	}
+}
 </script>

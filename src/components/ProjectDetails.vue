@@ -10,12 +10,12 @@
 </template>
 
 <script>
-	export default {
-		name: 'ProjectDetails',
+export default {
+	name: 'ProjectDetails',
 
-		props: {
-			title: String,
-			description: String
-		}
+	props: {
+		title: String,
+		description: String
 	}
+}
 </script>

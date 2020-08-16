@@ -14,22 +14,22 @@
 </template>
 
 <script>
-	import ThumbnailsGrid from './ThumbnailsGrid'
-	import ProjectDetails from './ProjectDetails'
+import ThumbnailsGrid from './ThumbnailsGrid'
+import ProjectDetails from './ProjectDetails'
 
-	export default {
-		name: 'SingleProject',
+export default {
+	name: 'SingleProject',
 
-		components: {
-			'thumbnails-grid': ThumbnailsGrid,
-			'project-details': ProjectDetails
-		},
+	components: {
+		'thumbnails-grid': ThumbnailsGrid,
+		'project-details': ProjectDetails
+	},
 
-		props: {
-			project: {
-				type: Object,
-				required: true
-			}
+	props: {
+		project: {
+			type: Object,
+			required: true
 		}
 	}
+}
 </script>

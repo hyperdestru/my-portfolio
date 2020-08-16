@@ -8,8 +8,8 @@
 </template>
 
 <script>
-	export default {
-		name: 'ScrollCta'
-	}
+export default {
+	name: 'ScrollCta'
+}
 </script>
 

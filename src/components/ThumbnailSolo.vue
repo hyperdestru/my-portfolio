@@ -22,7 +22,7 @@
 </template>
 
 <script>
-	export default {
-		name: 'ThumbnailSolo'
-	}
+export default {
+	name: 'ThumbnailSolo'
+}
 </script>

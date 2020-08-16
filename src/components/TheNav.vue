@@ -17,23 +17,23 @@
 </template>
 
 <script>
-	export default {
-		name: 'TheNav',
+export default {
+	name: 'TheNav',
 
-		props: {
-			dropdown: {
-				type: Boolean,
-				required: false
-			}
-		},
+	props: {
+		dropdown: {
+			type: Boolean,
+			required: false
+		}
+	},
 
-		data: () => ({
-			pages: [
-				{ name: 'Accueil', link: '#the-home' },
-				{ name: 'Projets', link: '#the-projects' },
-				{ name: 'A propos', link: '#the-about' },
-				{ name: 'Contact', link: '#the-contact' }
-			]
-		})
-	}
+	data: () => ({
+		pages: [
+			{ name: 'Accueil', link: '#the-home' },
+			{ name: 'Projets', link: '#the-projects' },
+			{ name: 'A propos', link: '#the-about' },
+			{ name: 'Contact', link: '#the-contact' }
+		]
+	})
+}
 </script>

@@ -23,13 +23,13 @@
 </template>
 
 <script>
-	import ScrollCta from './ScrollCta'
+import ScrollCta from './ScrollCta'
 
-	export default {
-		name: 'TheBanner',
+export default {
+	name: 'TheBanner',
 
-		components: {
-			'scroll-cta': ScrollCta
-		}
+	components: {
+		'scroll-cta': ScrollCta
 	}
+}
 </script>

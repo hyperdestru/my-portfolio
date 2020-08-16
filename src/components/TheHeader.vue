@@ -22,18 +22,18 @@
 </template>
 
 <script>
-	import DropdownMenu from '@/components/DropdownMenu'
-	import ClassicMenu from '@/components/ClassicMenu'
-	import HeaderLogo from '@/components/HeaderLogo'
+import DropdownMenu from '@/components/DropdownMenu'
+import ClassicMenu from '@/components/ClassicMenu'
+import HeaderLogo from '@/components/HeaderLogo'
 
-	export default {
-		name: 'TheHeader',
+export default {
+	name: 'TheHeader',
 
-		components: {
-			'dropdown-menu': DropdownMenu,
-			'classic-menu': ClassicMenu,
-			'header-logo': HeaderLogo
-		}
+	components: {
+		'dropdown-menu': DropdownMenu,
+		'classic-menu': ClassicMenu,
+		'header-logo': HeaderLogo
 	}
+}
 </script>
 
