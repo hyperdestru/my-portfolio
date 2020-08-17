@@ -1,5 +1,5 @@
 <template>
-	<v-container fluid id="the-projects">
+	<div id="the-projects">
 		<h3 class="text-center">
 			{{ $t('messages.tProjects') }}
 		</h3>
@@ -7,7 +7,7 @@
 			<single-project :project="proj">
 			</single-project>
 		</v-row>
-	</v-container>
+	</div>
 </template>
 
 <script>

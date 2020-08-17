@@ -29,7 +29,7 @@ export default {
 
 	data: () => ({
 		pages: [
-			{ name: 'Accueil', link: '#the-home' },
+			{ name: 'Accueil', link: 0 },
 			{ name: 'Projets', link: '#the-projects' },
 			{ name: 'A propos', link: '#the-about' },
 			{ name: 'Contact', link: '#the-contact' }

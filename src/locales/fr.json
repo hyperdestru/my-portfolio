@@ -1,8 +1,10 @@
 {
 	"messages": {
 		"tBanner": "Gaël Dumon",
-		"tFooter": "Fait maison avec Vue.js",
+		"tFooter": "Fait maison avec Vue.js • Score SEO : 0 • Score accessibilité : 0",
 		"tProjects": "Mes projets",
+		"tAbout": "A propos de moi",
+		"tContact": "Contactons nous",
 		"stBanner": "Développeur web full stack"
 	},
 	"projects": [
