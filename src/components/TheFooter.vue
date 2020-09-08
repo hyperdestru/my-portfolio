@@ -1,7 +1,7 @@
 <template>
 	<div class="footer text-center">
 		<h5 class="py-4">
-			{{ $t('messages.tFooter') }}
+			{{ $t('messages.pFooter') }}
 		</h5>
 	</div>
 </template>

@@ -6,6 +6,11 @@
 		<p>
 			{{ description }}
 		</p>
+		<ul>
+			<li v-for="(tech, index) in stack" :key="index">
+				{{ tech }}
+			</li>
+		</ul>
 	</v-col>
 </template>
 
@@ -15,7 +20,8 @@ export default {
 
 	props: {
 		title: String,
-		description: String
+		description: String,
+		stack: Array
 	}
 }
 </script>

@@ -23,6 +23,6 @@
 
 <script>
 export default {
-	name: 'ThumbnailSolo'
+	name: 'SingleThumbnail'
 }
 </script>

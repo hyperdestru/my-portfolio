@@ -32,6 +32,7 @@ export default {
 			{ name: 'Accueil', link: 0 },
 			{ name: 'Projets', link: '#the-projects' },
 			{ name: 'A propos', link: '#the-about' },
+			{ name: 'Témoignages', link: '#the-testimonies' },
 			{ name: 'Contact', link: '#the-contact' }
 		]
 	})
