@@ -12,6 +12,7 @@
 			<h2 class="text-h1">
 				{{ $t('messages.tBanner') }}
 			</h2>
+			
 			<h1 class="text-h6">
 				{{ $t('messages.stBanner') }}
 			</h1>

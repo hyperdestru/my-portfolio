@@ -1,8 +1,19 @@
 <template>
-	<v-row justify="center" class="single-project">
-		<v-col cols="10" class="d-flex flex-row justify-center">	
-			<thumbnails-grid>
-			</thumbnails-grid>
+	<v-row 
+		justify="center" 
+		class="single-project"
+	>
+		<v-col 
+			cols="10" 
+			class="
+				d-flex 
+				flex-row 
+				justify-center
+			"
+		>
+
+			<single-thumbnail>
+			</single-thumbnail>
 
 			<project-details
 				:title="project.title"
@@ -15,14 +26,14 @@
 </template>
 
 <script>
-import ThumbnailsGrid from './ThumbnailsGrid'
+import SingleThumbnail from './SingleThumbnail'
 import ProjectDetails from './ProjectDetails'
 
 export default {
 	name: 'SingleProject',
 
 	components: {
-		'thumbnails-grid': ThumbnailsGrid,
+		'single-thumbnail': SingleThumbnail,
 		'project-details': ProjectDetails
 	},
 

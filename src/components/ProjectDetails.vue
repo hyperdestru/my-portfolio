@@ -1,5 +1,8 @@
 <template>
-	<v-col cols="4" class="project-details-content">
+	<v-col 
+		cols="4" 
+		class="project-details-content"
+	>
 		<h3>
 			{{ title }}
 		</h3>

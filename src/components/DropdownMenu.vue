@@ -1,5 +1,5 @@
 <template>
-	<v-menu>
+	<v-menu class="dropdown-menu">
 		<template v-slot:activator="{ on }">
 			<v-icon v-on="on" x-large>
 				mdi-menu
