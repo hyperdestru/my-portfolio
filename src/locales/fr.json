@@ -5,48 +5,82 @@
 		"tAbout": "A propos de moi",
 		"tTestimonies": "Témoignages",
 		"tContact": "Discutons",
-		"stBanner": "Développeur web Javascript",
+		"stBanner": "Développeur web",
 		"pFooter": "Gaël Dumon © 2020 - Fait maison avec Vue.js • SEO : 0 • Accessibilité : 0",
 		"pAbout": "Basé à Toulouse mais habitué à travailler en remote. Disponible pour un poste à temps plein."
 	},
+	"nav": {
+		"lHome": "Accueil",
+		"lProjects": "Projets",
+		"lAbout": "A propos",
+		"lTestimonies": "Témoignages",
+		"lContact": "Contact"
+	},
 	"projects": [
-		{ 
+		{
 			"title": "Instant Vital",
+			"slug": "instant-vital",
 			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
 			"stack": [
-				"Vue.js", "Vuetify", "Firebase", "NoSQL (Firestore)", "Javascript"
+				"Vue.js",
+				"Vuetify",
+				"Firebase",
+				"NoSQL (Firestore)",
+				"Javascript"
 			]
 		},
-		{ 
+		{
 			"title": "Hoa Fight",
+			"slug": "hoa-fight",
 			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
 			"stack": [
-				"Vue.js", "Vuetify", "Express", "SQL (MariaDB)", "Typescript", "Phaser 3"
+				"Vue.js",
+				"Vuetify",
+				"Express",
+				"SQL (MariaDB)",
+				"Typescript",
+				"Phaser 3"
 			]
 		}
 	],
 	"tools": [
-		"Git", "Git Bash", "NPM", "VSCode", "VIM", "Adobe XD", "Eslint", "Webpack"
+		"Git",
+		"Git Bash",
+		"NPM",
+		"VSCode",
+		"VIM",
+		"Adobe XD",
+		"Eslint",
+		"Webpack"
 	],
 	"contact": {
-		"email": "gael.dumon@gmail.com",
-		"linkedin": "linkedin/gaeldumon",
-		"github": "github.com/hyperdestru"
+		"email": {
+			"label": "gael.dumon@gmail.com",
+			"link": ""
+		}, 
+		"linkedin": {
+			"label": "linkedin/gaeldumon",
+			"link": "https://fr.linkedin.com/in/gaeldumon"
+		},
+		"github": {
+			"label": "github.com/hyperdestru",
+			"link": "https://github.com/hyperdestru"
+		}
 	},
 	"testimonies": [
-		{ 
+		{
 			"author": "Nicolas Ledoux",
 			"text": "Gaël possède dejà une grande maturité de programmation. Il peut facilement assimiler de façon autonome..."
 		},
-		{ 
+		{
 			"author": "Antoine Malpel",
 			"text": "Un profil développeur pur. Autonome et passionné..."
 		},
-		{ 
+		{
 			"author": "Etienne Herencia",
 			"text": "Il peut rapidement intégrer une équipe de développeur..."
 		},
-		{ 
+		{
 			"author": "David Gautier",
 			"text": "Gaël est doué et d'un savoir être agrèable..."
 		}

@@ -1,8 +1,7 @@
 <template>
 	<v-app>
-		<the-header>
-		</the-header>
 		<v-main>
+			<the-header></the-header>
 			<v-container>
 				<the-home></the-home>
 				<the-projects></the-projects>
@@ -10,9 +9,8 @@
 				<the-testimonies></the-testimonies>
 				<the-contact></the-contact>
 			</v-container>
+			<the-footer></the-footer>
 		</v-main>
-		<the-footer>
-		</the-footer>
 	</v-app>
 </template>
 

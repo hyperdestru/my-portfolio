@@ -12,7 +12,7 @@
 			"
 		>
 
-			<single-thumbnail>
+			<single-thumbnail :projectSlug="project.slug">
 			</single-thumbnail>
 
 			<project-details

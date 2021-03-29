@@ -1,5 +1,88 @@
 {
 	"messages": {
-		"tBanner": "Gaël Dumon"
-	}
+		"tBanner": "Gaël Dumon",
+		"tProjects": "My projects",
+		"tAbout": "About me",
+		"tTestimonies": "Testimonies",
+		"tContact": "Let's chat",
+		"stBanner": "Web developer",
+		"pFooter": "Gaël Dumon © 2020 - Homemade with Vue.js • SEO : 0 • Accessibility : 0",
+		"pAbout": "Professional dedicated to making apps with great user experience and solid codebase."
+	},
+	"nav": {
+		"lHome": "Home",
+		"lProjects": "Projects",
+		"lAbout": "About",
+		"lTestimonies": "Testimonies",
+		"lContact": "Let's chat"
+	},
+	"projects": [
+		{
+			"title": "Instant Vital",
+			"slug": "instant-vital",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
+			"stack": [
+				"Vue.js",
+				"Vuetify",
+				"Firebase",
+				"NoSQL (Firestore)",
+				"Javascript"
+			]
+		},
+		{
+			"title": "Hoa Fight",
+			"slug": "hoa-fight",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
+			"stack": [
+				"Vue.js",
+				"Vuetify",
+				"Express",
+				"SQL (MariaDB)",
+				"Typescript",
+				"Phaser 3"
+			]
+		}
+	],
+	"tools": [
+		"Git",
+		"Git Bash",
+		"NPM",
+		"VSCode",
+		"VIM",
+		"Adobe XD",
+		"Eslint",
+		"Webpack"
+	],
+	"contact": {
+		"email": {
+			"label": "gael.dumon@gmail.com",
+			"link": ""
+		}, 
+		"linkedin": {
+			"label": "linkedin/gaeldumon",
+			"link": "https://fr.linkedin.com/in/gaeldumon"
+		},
+		"github": {
+			"label": "github.com/hyperdestru",
+			"link": "https://github.com/hyperdestru"
+		}
+	},
+	"testimonies": [
+		{
+			"author": "Nicolas Ledoux",
+			"text": "Gaël possède dejà une grande maturité de programmation. Il peut facilement assimiler de façon autonome..."
+		},
+		{
+			"author": "Antoine Malpel",
+			"text": "Un profil développeur pur. Autonome et passionné..."
+		},
+		{
+			"author": "Etienne Herencia",
+			"text": "Il peut rapidement intégrer une équipe de développeur..."
+		},
+		{
+			"author": "David Gautier",
+			"text": "Gaël est doué et d'un savoir être agrèable..."
+		}
+	]
 }

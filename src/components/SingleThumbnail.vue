@@ -1,7 +1,9 @@
 <template>
 	<v-img
-		:src="require('../../assets/thumbnails/hoa-fight.png')"
+		:src="require(`../../assets/thumbnails/${projectSlug}.png`)"
 		class="single-thumb grey lighten-2"
+		max-width="350"
+		max-height="348"
 	>
 		<template v-slot:placeholder>
 			<v-row 
@@ -21,6 +23,12 @@
 
 <script>
 export default {
-	name: 'SingleThumbnail'
+	name: 'SingleThumbnail',
+	props: {
+		projectSlug: {
+			type: String,
+			required: true
+		}
+	}
 }
 </script>

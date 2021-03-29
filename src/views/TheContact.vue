@@ -8,19 +8,19 @@
 				<v-list-item-group>
 					<v-list-item>
 						<v-list-item-title>
-							{{ $t('contact.email') }}
+							{{ $t('contact.email.label') }}
 						</v-list-item-title>
 					</v-list-item>
 
 					<v-list-item>
 						<v-list-item-title>
-							{{ $t('contact.linkedin') }}
+							{{ $t('contact.linkedin.label') }}
 						</v-list-item-title>
 					</v-list-item>
 
 					<v-list-item>
 						<v-list-item-title>
-							{{ $t('contact.github') }}
+							{{ $t('contact.github.label') }}
 						</v-list-item-title>
 					</v-list-item>
 				</v-list-item-group>

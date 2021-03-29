@@ -1,6 +1,6 @@
 <template>
 	<div 
-		style="height: 600px"
+		:style="{ 'height': bannerHeight }"
 		class="
 			d-flex 
 			flex-column 
@@ -31,6 +31,10 @@ export default {
 
 	components: {
 		'scroll-cta': ScrollCta
-	}
+	},
+
+	data: () => ({
+		bannerHeight: `${(screen.height) - 164}px`
+	})
 }
 </script>

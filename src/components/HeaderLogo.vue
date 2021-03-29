@@ -1,5 +1,6 @@
 <template>
 	<v-icon 
+		class="white--text"
 		x-large 
 		@click="$vuetify.goTo(0)"
 	>

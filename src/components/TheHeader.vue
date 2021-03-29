@@ -1,23 +1,26 @@
 <template>
-	<div class="header">
-		<v-container 
-			fluid 
-			class="
-				d-flex
-				flex-row
-				justify-space-between
-				align-center
-			"
-		>
-			<header-logo>
-			</header-logo>
+	<div 
+		style="
+			position: sticky;
+			top: 0;
+			z-index: 5;
+		"
+		class="
+			d-flex
+			flex-row
+			justify-space-between
+			align-center
+			primary
+		"
+	>
+		<header-logo>
+		</header-logo>
 
-			<classic-menu v-if="$vuetify.breakpoint.mdAndUp">
-			</classic-menu>
+		<classic-menu v-if="$vuetify.breakpoint.mdAndUp">
+		</classic-menu>
 
-			<dropdown-menu v-else-if="$vuetify.breakpoint.smAndDown">
-			</dropdown-menu>
-		</v-container>
+		<dropdown-menu v-else-if="$vuetify.breakpoint.smAndDown">
+		</dropdown-menu>
 	</div>
 </template>
 
@@ -36,4 +39,3 @@ export default {
 	}
 }
 </script>
-
