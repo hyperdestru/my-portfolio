@@ -1,5 +1,5 @@
 <template>
-	<div class="footer text-center">
+	<div class="footer text-center secondary white--text">
 		<h5 class="py-4">
 			{{ $t('messages.pFooter') }}
 		</h5>
@@ -9,10 +9,7 @@
 <script>
 
 export default {
-	name: 'TheHeader',
-
-	components: {
-	}
+	name: 'TheHeader'
 }
 </script>
 

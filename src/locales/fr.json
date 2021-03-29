@@ -18,6 +18,29 @@
 	},
 	"projects": [
 		{
+			"title": "Epilepsia",
+			"slug": "epilepsia",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
+			"stack": [
+				"Vue.js",
+				"NativeScript",
+				"Firebase",
+				"NoSQL (Firestore)"
+			]
+		},
+		{
+			"title": "Adn Family",
+			"slug": "adn-family",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
+			"stack": [
+				"PHP",
+				"Javascript vanilla",
+				"SQL (MariaDB)",
+				"Sass",
+				"Kendo MVVM"
+			]
+		},
+		{
 			"title": "Instant Vital",
 			"slug": "instant-vital",
 			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",

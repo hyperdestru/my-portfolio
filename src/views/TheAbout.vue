@@ -1,5 +1,5 @@
 <template>
-	<div id="the-about">
+	<div id="the-about" class="mt-10">
 		<h3 class="text-center">
 			{{ $t('messages.tAbout') }}
 		</h3>

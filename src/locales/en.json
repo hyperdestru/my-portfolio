@@ -7,20 +7,43 @@
 		"tContact": "Let's chat",
 		"stBanner": "Web developer",
 		"pFooter": "Gaël Dumon © 2020 - Homemade with Vue.js • SEO : 0 • Accessibility : 0",
-		"pAbout": "Professional dedicated to making apps with great user experience and solid codebase."
+		"pAbout": "Professional dedicated to make apps with great user experience and solid codebase."
 	},
 	"nav": {
 		"lHome": "Home",
 		"lProjects": "Projects",
 		"lAbout": "About",
 		"lTestimonies": "Testimonies",
-		"lContact": "Let's chat"
+		"lContact": "Get in touch"
 	},
 	"projects": [
 		{
+			"title": "Epilepsia",
+			"slug": "epilepsia",
+			"description": "Mobile app for people who have Epilepsy seizures.",
+			"stack": [
+				"Vue.js",
+				"NativeScript",
+				"Firebase",
+				"NoSQL (Firestore)"
+			]
+		},
+		{
+			"title": "Adn Family",
+			"slug": "adn-family",
+			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
+			"stack": [
+				"PHP",
+				"Javascript vanilla",
+				"SQL (MariaDB)",
+				"Sass",
+				"Kendo MVVM"
+			]
+		},
+		{
 			"title": "Instant Vital",
 			"slug": "instant-vital",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
+			"description": "Progressive web app that tells you how many people is left in the waiting line at your doctor office.",
 			"stack": [
 				"Vue.js",
 				"Vuetify",
@@ -32,7 +55,7 @@
 		{
 			"title": "Hoa Fight",
 			"slug": "hoa-fight",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
+			"description": "Website and 2-players web video game. Athentication, account modification, launch a game, see your stats, see your ranking.",
 			"stack": [
 				"Vue.js",
 				"Vuetify",
