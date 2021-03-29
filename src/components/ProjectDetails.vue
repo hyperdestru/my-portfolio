@@ -9,11 +9,13 @@
 		<p>
 			{{ description }}
 		</p>
+		<!--
 		<ul>
 			<li v-for="(tech, index) in stack" :key="index">
 				{{ tech }}
 			</li>
 		</ul>
+		<-->
 	</v-col>
 </template>
 

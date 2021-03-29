@@ -41,18 +41,6 @@
 			]
 		},
 		{
-			"title": "Instant Vital",
-			"slug": "instant-vital",
-			"description": "Progressive web app that tells you how many people is left in the waiting line at your doctor office.",
-			"stack": [
-				"Vue.js",
-				"Vuetify",
-				"Firebase",
-				"NoSQL (Firestore)",
-				"Javascript"
-			]
-		},
-		{
 			"title": "Hoa Fight",
 			"slug": "hoa-fight",
 			"description": "Website and 2-players web video game. Athentication, account modification, launch a game, see your stats, see your ranking.",
@@ -63,6 +51,18 @@
 				"SQL (MariaDB)",
 				"Typescript",
 				"Phaser 3"
+			]
+		},
+		{
+			"title": "Instant Vital",
+			"slug": "instant-vital",
+			"description": "Progressive web app that tells you how many people is left in the waiting line at your doctor office.",
+			"stack": [
+				"Vue.js",
+				"Vuetify",
+				"Firebase",
+				"NoSQL (Firestore)",
+				"Javascript"
 			]
 		}
 	],
@@ -92,19 +92,19 @@
 	},
 	"testimonies": [
 		{
-			"author": "Nicolas Ledoux",
+			"author": "Nicolas Ledoux - Senior system administrator, Python developer",
 			"text": "Gaël possède dejà une grande maturité de programmation. Il peut facilement assimiler de façon autonome..."
 		},
 		{
-			"author": "Antoine Malpel",
+			"author": "Antoine Malpel - Senior Angular & Ruby developer",
 			"text": "Un profil développeur pur. Autonome et passionné..."
 		},
 		{
-			"author": "Etienne Herencia",
+			"author": "Etienne Herencia - Senior PHP developer",
 			"text": "Il peut rapidement intégrer une équipe de développeur..."
 		},
 		{
-			"author": "David Gautier",
+			"author": "David Gautier - Senior UX/UI designer",
 			"text": "Gaël est doué et d'un savoir être agrèable..."
 		}
 	]

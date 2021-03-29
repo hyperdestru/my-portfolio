@@ -92,19 +92,19 @@
 	},
 	"testimonies": [
 		{
-			"author": "Nicolas Ledoux",
+			"author": "Nicolas Ledoux - SysAdmin, développeur Python",
 			"text": "Gaël possède dejà une grande maturité de programmation. Il peut facilement assimiler de façon autonome..."
 		},
 		{
-			"author": "Antoine Malpel",
+			"author": "Antoine Malpel - Développeur Angular & Ruby",
 			"text": "Un profil développeur pur. Autonome et passionné..."
 		},
 		{
-			"author": "Etienne Herencia",
+			"author": "Etienne Herencia - Développeur PHP",
 			"text": "Il peut rapidement intégrer une équipe de développeur..."
 		},
 		{
-			"author": "David Gautier",
+			"author": "David Gautier - Designeur UX/UI",
 			"text": "Gaël est doué et d'un savoir être agrèable..."
 		}
 	]
