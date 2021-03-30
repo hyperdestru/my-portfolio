@@ -1,17 +1,7 @@
 <template>
 	<div 
-		style="
-			position: sticky;
-			top: 0;
-			z-index: 5;
-		"
-		class="
-			d-flex
-			flex-row
-			justify-space-between
-			align-center
-			primary
-		"
+		style="position: sticky; top: 0; z-index: 5;"
+		class="d-flex flex-row justify-space-between align-center primary"
 	>
 		<header-logo>
 		</header-logo>

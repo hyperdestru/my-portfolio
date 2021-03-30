@@ -1,9 +1,9 @@
 <template>
 	<div id="the-testimonies" class="mt-10">
-		<h3 class="text-center">
-			{{ $t('messages.tTestimonies') }}
-		</h3>
-		<v-carousel v-model="model" hide-delimiters>
+		<section-title :textContent="$t('sections.testimonies.title')">
+		</section-title>
+
+		<v-carousel v-model="model" hide-delimiters height="164">
 			<v-carousel-item
 				v-for="(testimony, index) in $t('testimonies')"
 				:key="index"
@@ -35,13 +35,13 @@
 </template>
 
 <script>
-//import SingleTestimony from '../components/SingleTestimony'
+import SectionTitle from '../components/SectionTitle'
 
 export default {
 	name: 'TheTestimonies',
 
 	components: {
-		//'single-testimony': SingleTestimony
+		'section-title': SectionTitle
 	},
 
 	data: function() {

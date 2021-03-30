@@ -1,19 +1,17 @@
 <template>
-	<v-list class="nav primary" flat>
+	<v-list class="primary" flat>
 		<v-list-item-group :class="{ 'd-flex': !dropdown }">
-
 			<v-list-item 
-				v-for="(page, index) in pages" 
+				v-for="(page, index) in $t('nav')" 
 				:key="index"
-				@click="$vuetify.goTo(page.link)"
+				@click="$vuetify.goTo(page.anchor)"
 			>
 				<v-list-item-content>
 					<v-list-item-title class="white--text">
-						{{ page.name }}
+						{{ page.label }}
 					</v-list-item-title>
 				</v-list-item-content>
 			</v-list-item>
-
 		</v-list-item-group>
 	</v-list>
 </template>
@@ -26,33 +24,6 @@ export default {
 		dropdown: {
 			type: Boolean,
 			required: false
-		}
-	},
-
-	data: function() {
-		return {
-			pages: [
-				{ 
-					name: this.$i18n.t('nav.lHome'), 
-					link: 0 
-				},
-				{ 
-					name: this.$i18n.t('nav.lProjects'), 
-					link: '#the-projects' 
-				},
-				{ 
-					name: this.$i18n.t('nav.lAbout'), 
-					link: '#the-about' 
-				},
-				{ 
-					name: this.$i18n.t('nav.lTestimonies'), 
-					link: '#the-testimonies' 
-				},
-				{ 
-					name: this.$i18n.t('nav.lContact'), 
-					link: '#the-contact' 
-				}
-			]
 		}
 	}
 }

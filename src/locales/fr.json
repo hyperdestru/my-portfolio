@@ -1,26 +1,46 @@
 {
-	"messages": {
-		"tBanner": "Gaël Dumon",
-		"tProjects": "Mes projets",
-		"tAbout": "A propos de moi",
-		"tTestimonies": "Témoignages",
-		"tContact": "Discutons",
-		"stBanner": "Développeur web",
-		"pFooter": "Gaël Dumon © 2020 - Fait maison avec Vue.js • SEO : 0 • Accessibilité : 0",
-		"pAbout": "Basé à Toulouse mais habitué à travailler en remote. Disponible pour un poste à temps plein."
+	"sections": {
+		"banner": {
+			"title": "Gaël Dumon",
+			"subtitle": "Développeur web",
+			"catchphrase": "Hello there, I'm Gaël, a french web developer dedicated to make apps with great user experience and solid codebase."
+		},
+		"projects": {
+			"title": "Mes projets"
+		},
+		"testimonies": {
+			"title": "Témoignages"
+		},
+		"contact": {
+			"title": "Contact"
+		},
+		"footer": {
+			"text": "Gaël Dumon © 2021 - Fait maison avec Vue.js • SEO : 0 • Accessibility : 0"
+		}
 	},
-	"nav": {
-		"lHome": "Accueil",
-		"lProjects": "Projets",
-		"lAbout": "A propos",
-		"lTestimonies": "Témoignages",
-		"lContact": "Contact"
-	},
+	"nav": [
+		{
+			"label": "Acceuil",
+			"anchor": 0
+		},
+		{
+			"label": "Projets",
+			"anchor": "#the-projects"
+		},
+		{
+			"label": "Témoignages",
+			"anchor": "#the-testimonies"
+		},
+		{
+			"label": "Contact",
+			"anchor": "#the-contact"
+		}
+	],
 	"projects": [
 		{
 			"title": "Epilepsia",
 			"slug": "epilepsia",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
+			"description": "Mobile app for people who have Epilepsy seizures.",
 			"stack": [
 				"Vue.js",
 				"NativeScript",
@@ -41,21 +61,9 @@
 			]
 		},
 		{
-			"title": "Instant Vital",
-			"slug": "instant-vital",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
-			"stack": [
-				"Vue.js",
-				"Vuetify",
-				"Firebase",
-				"NoSQL (Firestore)",
-				"Javascript"
-			]
-		},
-		{
 			"title": "Hoa Fight",
 			"slug": "hoa-fight",
-			"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, deleniti optio praesentium dolorum numquam obcaecati ipsa, sunt architecto pariatur amet dolor ducimus enim totam maxime aliquam. Necessitatibus iste veniam quisquam!",
+			"description": "Website and 2-players web video game. Athentication, account modification, launch a game, see your stats, see your ranking.",
 			"stack": [
 				"Vue.js",
 				"Vuetify",
@@ -63,6 +71,18 @@
 				"SQL (MariaDB)",
 				"Typescript",
 				"Phaser 3"
+			]
+		},
+		{
+			"title": "Instant Vital",
+			"slug": "instant-vital",
+			"description": "Progressive web app that tells you how many people is left in the waiting line at your doctor office.",
+			"stack": [
+				"Vue.js",
+				"Vuetify",
+				"Firebase",
+				"NoSQL (Firestore)",
+				"Javascript"
 			]
 		}
 	],
@@ -76,35 +96,35 @@
 		"Eslint",
 		"Webpack"
 	],
-	"contact": {
-		"email": {
+	"contact": [
+		{
 			"label": "gael.dumon@gmail.com",
 			"link": ""
-		}, 
-		"linkedin": {
+		},
+		{
 			"label": "linkedin/gaeldumon",
 			"link": "https://fr.linkedin.com/in/gaeldumon"
 		},
-		"github": {
+		{
 			"label": "github.com/hyperdestru",
 			"link": "https://github.com/hyperdestru"
 		}
-	},
+	],
 	"testimonies": [
 		{
-			"author": "Nicolas Ledoux - SysAdmin, développeur Python",
+			"author": "Nicolas Ledoux - Senior system administrator, Python developer",
 			"text": "Gaël possède dejà une grande maturité de programmation. Il peut facilement assimiler de façon autonome..."
 		},
 		{
-			"author": "Antoine Malpel - Développeur Angular & Ruby",
+			"author": "Antoine Malpel - Senior Angular & Ruby developer",
 			"text": "Un profil développeur pur. Autonome et passionné..."
 		},
 		{
-			"author": "Etienne Herencia - Développeur PHP",
+			"author": "Etienne Herencia - Senior PHP developer",
 			"text": "Il peut rapidement intégrer une équipe de développeur..."
 		},
 		{
-			"author": "David Gautier - Designeur UX/UI",
+			"author": "David Gautier - Senior UX/UI designer",
 			"text": "Gaël est doué et d'un savoir être agrèable..."
 		}
 	]

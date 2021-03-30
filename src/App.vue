@@ -3,9 +3,8 @@
 		<v-main>
 			<the-header></the-header>
 			<v-container>
-				<the-home></the-home>
+				<the-banner></the-banner>
 				<the-projects></the-projects>
-				<the-about></the-about>
 				<the-testimonies></the-testimonies>
 				<the-contact></the-contact>
 			</v-container>
@@ -15,11 +14,10 @@
 </template>
 
 <script>
-import TheHeader from './components/TheHeader'
-import TheFooter from './components/TheFooter'
-import TheHome from './views/TheHome'
+import TheHeader from './views/TheHeader'
+import TheFooter from './views/TheFooter'
+import TheBanner from './views/TheBanner'
 import TheProjects from './views/TheProjects'
-import TheAbout from './views/TheAbout'
 import TheTestimonies from './views/TheTestimonies'
 import TheContact from './views/TheContact'
 
@@ -29,9 +27,8 @@ export default {
 	components: {
 		'the-header': TheHeader,
 		'the-footer': TheFooter,
-		'the-home': TheHome,
+		'the-banner': TheBanner,
 		'the-projects': TheProjects,
-		'the-about': TheAbout,
 		'the-testimonies': TheTestimonies,
 		'the-contact': TheContact
 	}

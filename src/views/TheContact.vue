@@ -1,36 +1,33 @@
 <template>
 	<div id="the-contact" class="mt-10">
-		<h3 class="text-center">
-			{{ $t('messages.tContact') }}
-		</h3>
-		<v-card class="text-center">
-			<v-list>
-				<v-list-item-group>
-					<v-list-item>
-						<v-list-item-title>
-							{{ $t('contact.email.label') }}
-						</v-list-item-title>
-					</v-list-item>
+		<section-title :textContent="$t('sections.contact.title')">
+		</section-title>
 
-					<v-list-item>
-						<v-list-item-title>
-							{{ $t('contact.linkedin.label') }}
+		<v-list flat class="text-center">
+			<v-list-item-group class="d-flex flex-row">
+				<v-list-item 
+					v-for="(page, index) in $t('contact')" 
+					:key="index"
+				>
+					<v-list-item-content>
+						<v-list-item-title class="secondary--text">
+							{{ page.label }}
 						</v-list-item-title>
-					</v-list-item>
-
-					<v-list-item>
-						<v-list-item-title>
-							{{ $t('contact.github.label') }}
-						</v-list-item-title>
-					</v-list-item>
-				</v-list-item-group>
-			</v-list>
-		</v-card>
+					</v-list-item-content>
+				</v-list-item>
+			</v-list-item-group>
+		</v-list>
 	</div>
 </template>
 
 <script>
+import SectionTitle from '../components/SectionTitle';
+
 export default {
-	name: 'TheContact'
+	name: 'TheContact',
+
+	components: {
+		'section-title': SectionTitle
+	}
 }
 </script>

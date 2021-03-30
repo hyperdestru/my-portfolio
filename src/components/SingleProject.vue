@@ -1,17 +1,6 @@
 <template>
-	<v-row 
-		justify="center" 
-		class="single-project"
-	>
-		<v-col 
-			cols="10" 
-			class="
-				d-flex 
-				flex-row 
-				justify-center
-			"
-		>
-
+	<v-row justify="center">
+		<v-col cols="10" class="d-flex flex-row justify-center">
 			<single-thumbnail :projectSlug="project.slug">
 			</single-thumbnail>
 

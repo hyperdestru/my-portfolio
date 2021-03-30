@@ -1,20 +1,15 @@
 <template>
 	<div 
 		:style="{ 'height': bannerHeight }"
-		class="
-			d-flex 
-			flex-column 
-			justify-space-around
-			align-center
-		"
+		class="d-flex flex-column justify-space-around align-center"
 	>
 		<div class="text-center text-uppercase">
 			<h2 class="text-h1">
-				{{ $t('messages.tBanner') }}
+				{{ $t('sections.banner.title') }}
 			</h2>
 			
 			<h1 class="text-h6">
-				{{ $t('messages.stBanner') }}
+				{{ $t('sections.banner.subtitle') }}
 			</h1>
 		</div>
 
@@ -24,7 +19,7 @@
 </template>
 
 <script>
-import ScrollCta from './ScrollCta'
+import ScrollCta from '../components/ScrollCta'
 
 export default {
 	name: 'TheBanner',
@@ -34,7 +29,8 @@ export default {
 	},
 
 	data: () => ({
-		bannerHeight: `${(screen.height) - 164}px`
+		// For banner height I take the screen height minus 33% of that height
+		bannerHeight: `${(screen.height - (screen.height * 0.33))}px`
 	})
 }
 </script>

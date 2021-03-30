@@ -1,21 +1,47 @@
 {
-	"messages": {
-		"tBanner": "Gaël Dumon",
-		"tProjects": "My projects",
-		"tAbout": "About me",
-		"tTestimonies": "Testimonies",
-		"tContact": "Let's chat",
-		"stBanner": "Web developer",
-		"pFooter": "Gaël Dumon © 2020 - Homemade with Vue.js • SEO : 0 • Accessibility : 0",
-		"pAbout": "Professional dedicated to make apps with great user experience and solid codebase."
+	"sections": {
+		"banner": {
+			"title": "Gaël Dumon",
+			"subtitle": "Développeur web"
+		},
+		"projects": {
+			"title": "Mes projets"
+		},
+		"about": {
+			"title": "Hello there, I'm Gaël, a french web developer dedicated to make apps with great user experience and solid codebase."
+		},
+		"testimonies": {
+			"title": "Testimonies"
+		},
+		"contact": {
+			"title": "Get in touch"
+		},
+		"footer": {
+			"title": "Gaël Dumon © 2021 - Homemade with Vue.js • SEO : 0 • Accessibility : 0"
+		}
 	},
-	"nav": {
-		"lHome": "Home",
-		"lProjects": "Projects",
-		"lAbout": "About",
-		"lTestimonies": "Testimonies",
-		"lContact": "Get in touch"
-	},
+	"nav": [
+		{
+			"label": "Acceuil",
+			"anchor": 0
+		},
+		{
+			"label": "A propos",
+			"anchor": "#the-about"
+		},
+		{
+			"label": "Projets",
+			"anchor": "#the-projects"
+		},
+		{
+			"label": "Témoignages",
+			"anchor": "#the-testimonies"
+		},
+		{
+			"label": "Contact",
+			"anchor": "#the-contact"
+		}
+	],
 	"projects": [
 		{
 			"title": "Epilepsia",
@@ -76,20 +102,20 @@
 		"Eslint",
 		"Webpack"
 	],
-	"contact": {
-		"email": {
+	"contact": [
+		{
 			"label": "gael.dumon@gmail.com",
 			"link": ""
-		}, 
-		"linkedin": {
+		},
+		{
 			"label": "linkedin/gaeldumon",
 			"link": "https://fr.linkedin.com/in/gaeldumon"
 		},
-		"github": {
+		{
 			"label": "github.com/hyperdestru",
 			"link": "https://github.com/hyperdestru"
 		}
-	},
+	],
 	"testimonies": [
 		{
 			"author": "Nicolas Ledoux - Senior system administrator, Python developer",
